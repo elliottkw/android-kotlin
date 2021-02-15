@@ -1,5 +1,11 @@
 package mx.qosoft.tutorials
 
 fun main(arg:Array<String>) {
-    println("Hola Mundo Android...")
+
+    var pizza = 4
+
+    pizza = 5
+
+
+    println(pizza)
 }
