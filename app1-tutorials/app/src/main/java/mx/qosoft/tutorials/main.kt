@@ -2,10 +2,9 @@ package mx.qosoft.tutorials
 
 fun main(arg:Array<String>) {
 
-    var pizza = 4
+    var pizza = "pizza"
 
-    pizza = 5
+    val ingrediente = "piña"
 
-
-    println(pizza)
+    println("$pizza con $ingrediente")
 }
