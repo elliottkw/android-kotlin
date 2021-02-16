@@ -1,10 +1,11 @@
 package mx.qosoft.tutorials
 
 fun main(arg:Array<String>) {
+    var tocino = 2
 
-    var pizza = "pizza"
-
-    val ingrediente = "piña"
-
-    println("$pizza con $ingrediente")
+    if (tocino > 1)  {
+        println("Ya tenemos tocino")
+    } else {
+        println("No tenemos tocino")
+    }
 }
