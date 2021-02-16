@@ -1,11 +1,9 @@
 package mx.qosoft.tutorials
 
 fun main(arg:Array<String>) {
-    var tocino = 2
+    val tocino = 0
 
-    if (tocino > 1)  {
-        println("Ya tenemos tocino")
-    } else {
-        println("No tenemos tocino")
-    }
+    val respuesta = if (tocino > 1) "Ya tenemos tocino" else "No tenemos tocino"
+
+    println(respuesta)
 }
